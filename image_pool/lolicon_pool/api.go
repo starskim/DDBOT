@@ -4,7 +4,7 @@ import (
 	"github.com/Sora233/DDBOT/proxy_pool"
 	"github.com/Sora233/DDBOT/requests"
 	"github.com/Sora233/DDBOT/utils"
-	"github.com/Sora233/MiraiGo-Template/config"
+	"github.com/starskim/MiraiGo-Template/config"
 	"time"
 )
 

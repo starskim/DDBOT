@@ -1,5 +1,5 @@
 package cfg
 
-import "github.com/Sora233/MiraiGo-Template/utils"
+import "github.com/starskim/MiraiGo-Template/utils"
 
 var logger = utils.GetModuleLogger("cfg")

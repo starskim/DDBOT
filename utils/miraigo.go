@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Sora233/MiraiGo-Template/bot"
+	"github.com/starskim/MiraiGo-Template/bot"
 	"github.com/samber/lo"
 )
 

@@ -6,7 +6,7 @@ import (
 	"github.com/Mrs4s/MiraiGo/message"
 	localdb "github.com/Sora233/DDBOT/lsp/buntdb"
 	"github.com/Sora233/DDBOT/lsp/concern_type"
-	"github.com/Sora233/MiraiGo-Template/bot"
+	"github.com/starskim/MiraiGo-Template/bot"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

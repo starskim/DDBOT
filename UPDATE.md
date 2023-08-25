@@ -1,5 +1,39 @@
 ## DDBOT最近更新日志
 
+- 2023-08-25 v1.1.3
+  - 更新登录代码 
+```
+# 本版本需要配置签名服务器，详情请看https://github.com/Mrs4s/go-cqhttp/issues/2242
+# 请在application.yaml文件中添加配置:
+sign:
+  # 数据包的签名服务器
+  # 兼容 https://github.com/fuqiuluo/unidbg-fetch-qsign
+  # 如果遇到 登录 45 错误, 或者发送信息风控的话需要填入一个服务器
+  # 示例:
+  # server: 'http://127.0.0.1:8080' # 本地签名服务器
+  # server: 'https://signserver.example.com' # 线上签名服务器
+  # 服务器可使用docker在本地搭建或者使用他人开放的服务
+  server: ''
+  # 签名服务器认证 Bearer Token
+  # 使用开放的服务可能需要提供此 Token 进行认证
+  server-bearer: ''
+  # 如果签名服务器的版本在1.1.0及以下, 请将下面的参数改成true
+  is-below-110: false
+  # 签名服务器所需要的apikey, 如果签名服务器的版本在1.1.0及以下则此项无效
+  # 本地部署的默认为114514
+  key: '114514'
+  # 在实例可能丢失（获取到的签名为空）时是否尝试重新注册
+  # 为 true 时，在签名服务不可用时可能每次发消息都会尝试重新注册并签名。
+  # 为 false 时，将不会自动注册实例，在签名服务器重启或实例被销毁后需要重启 go-cqhttp 以获取实例
+  # 否则后续消息将不会正常签名。关闭此项后可以考虑开启签名服务器端 auto_register 避免需要重启
+  auto-register: false
+  # 是否在 token 过期后立即自动刷新签名 token（在需要签名时才会检测到，主要防止 token 意外丢失）
+  # 独立于定时刷新
+  auto-refresh-token: false
+  # 定时刷新 token 间隔时间，单位为分钟, 建议 30~40 分钟, 不可超过 60 分钟
+  # 目前丢失token也不会有太大影响，可设置为 0 以关闭，推荐开启
+  refresh-interval: 40
+```
 - 2023-07-01 v1.1.2
   - 更新登录代码 
 ```
