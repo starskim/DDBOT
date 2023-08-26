@@ -3,8 +3,8 @@ package bilibili
 import (
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Sora233/DDBOT/internal/test"
-	localdb "github.com/Sora233/DDBOT/lsp/buntdb"
+	"github.com/starskim/DDBOT/internal/test"
+	localdb "github.com/starskim/DDBOT/lsp/buntdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/buntdb"
 	"testing"

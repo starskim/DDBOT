@@ -3,9 +3,9 @@ package acfun
 import (
 	"bytes"
 	"errors"
-	"github.com/Sora233/DDBOT/proxy_pool"
-	"github.com/Sora233/DDBOT/requests"
-	"github.com/Sora233/DDBOT/utils"
+	"github.com/starskim/DDBOT/proxy_pool"
+	"github.com/starskim/DDBOT/requests"
+	"github.com/starskim/DDBOT/utils"
 	"regexp"
 	"time"
 )

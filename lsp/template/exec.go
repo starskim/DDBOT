@@ -7,7 +7,7 @@ package template
 import (
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/lsp/mmsg"
 	"reflect"
 	"runtime"
 	"strings"

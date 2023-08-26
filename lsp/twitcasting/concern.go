@@ -2,10 +2,10 @@ package twitcasting
 
 import (
 	"fmt"
-	"github.com/Sora233/DDBOT/lsp/buntdb"
-	"github.com/Sora233/DDBOT/lsp/concern"
-	"github.com/Sora233/DDBOT/lsp/concern_type"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/lsp/buntdb"
+	"github.com/starskim/DDBOT/lsp/concern"
+	"github.com/starskim/DDBOT/lsp/concern_type"
+	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/starskim/MiraiGo-Template/config"
 	"github.com/starskim/MiraiGo-Template/utils"
 	"github.com/nobuf/cas"

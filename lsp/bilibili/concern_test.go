@@ -2,9 +2,9 @@ package bilibili
 
 import (
 	"context"
-	"github.com/Sora233/DDBOT/internal/test"
-	"github.com/Sora233/DDBOT/lsp/concern"
-	"github.com/Sora233/DDBOT/utils/msgstringer"
+	"github.com/starskim/DDBOT/internal/test"
+	"github.com/starskim/DDBOT/lsp/concern"
+	"github.com/starskim/DDBOT/utils/msgstringer"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/buntdb"
 	"testing"

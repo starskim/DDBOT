@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/client"
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Sora233/DDBOT/image_pool"
-	"github.com/Sora233/DDBOT/image_pool/local_pool"
-	"github.com/Sora233/DDBOT/image_pool/lolicon_pool"
-	localdb "github.com/Sora233/DDBOT/lsp/buntdb"
-	"github.com/Sora233/DDBOT/lsp/cfg"
-	"github.com/Sora233/DDBOT/lsp/concern"
-	"github.com/Sora233/DDBOT/lsp/concern_type"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
-	"github.com/Sora233/DDBOT/lsp/permission"
-	"github.com/Sora233/DDBOT/lsp/template"
-	"github.com/Sora233/DDBOT/lsp/version"
-	"github.com/Sora233/DDBOT/proxy_pool"
-	"github.com/Sora233/DDBOT/proxy_pool/local_proxy_pool"
-	"github.com/Sora233/DDBOT/proxy_pool/py"
-	localutils "github.com/Sora233/DDBOT/utils"
-	"github.com/Sora233/DDBOT/utils/msgstringer"
+	"github.com/starskim/DDBOT/image_pool"
+	"github.com/starskim/DDBOT/image_pool/local_pool"
+	"github.com/starskim/DDBOT/image_pool/lolicon_pool"
+	localdb "github.com/starskim/DDBOT/lsp/buntdb"
+	"github.com/starskim/DDBOT/lsp/cfg"
+	"github.com/starskim/DDBOT/lsp/concern"
+	"github.com/starskim/DDBOT/lsp/concern_type"
+	"github.com/starskim/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/lsp/permission"
+	"github.com/starskim/DDBOT/lsp/template"
+	"github.com/starskim/DDBOT/lsp/version"
+	"github.com/starskim/DDBOT/proxy_pool"
+	"github.com/starskim/DDBOT/proxy_pool/local_proxy_pool"
+	"github.com/starskim/DDBOT/proxy_pool/py"
+	localutils "github.com/starskim/DDBOT/utils"
+	"github.com/starskim/DDBOT/utils/msgstringer"
 	"github.com/starskim/MiraiGo-Template/bot"
 	"github.com/starskim/MiraiGo-Template/config"
 	"github.com/fsnotify/fsnotify"
@@ -632,7 +632,7 @@ func (l *Lsp) NewVersionNotify(newVersionChan <-chan string) {
 			continue
 		}
 		m := mmsg.NewMSG()
-		m.Textf("DDBOT管理员您好，DDBOT有可用更新版本【%v】，请前往 https://github.com/Sora233/DDBOT/releases 查看详细信息\n\n", newVersion)
+		m.Textf("DDBOT管理员您好，DDBOT有可用更新版本【%v】，请前往 https://github.com/starskim/DDBOT/releases 查看详细信息\n\n", newVersion)
 		m.Textf("如果您不想接收更新消息，请输入<%v>(不含括号)", l.CommandShowName(NoUpdateCommand))
 		for _, admin := range l.PermissionStateManager.ListAdmin() {
 			if localdb.Exist(localdb.DDBotNoUpdateKey(admin)) {

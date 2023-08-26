@@ -3,8 +3,8 @@ package logging
 import (
 	"github.com/Mrs4s/MiraiGo/client"
 	"github.com/Mrs4s/MiraiGo/message"
-	localutils "github.com/Sora233/DDBOT/utils"
-	"github.com/Sora233/DDBOT/utils/msgstringer"
+	localutils "github.com/starskim/DDBOT/utils"
+	"github.com/starskim/DDBOT/utils/msgstringer"
 	"github.com/starskim/MiraiGo-Template/config"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
 	"github.com/rifflock/lfshook"

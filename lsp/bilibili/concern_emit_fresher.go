@@ -1,8 +1,8 @@
 package bilibili
 
 import (
-	"github.com/Sora233/DDBOT/lsp/concern"
-	"github.com/Sora233/DDBOT/lsp/concern_type"
+	"github.com/starskim/DDBOT/lsp/concern"
+	"github.com/starskim/DDBOT/lsp/concern_type"
 	"time"
 )
 

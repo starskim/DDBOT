@@ -1,8 +1,8 @@
 package acfun
 
 import (
-	"github.com/Sora233/DDBOT/internal/test"
-	"github.com/Sora233/DDBOT/lsp/concern"
+	"github.com/starskim/DDBOT/internal/test"
+	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

@@ -3,9 +3,9 @@ package bilibili
 import (
 	"errors"
 	"github.com/Mrs4s/MiraiGo/message"
-	localdb "github.com/Sora233/DDBOT/lsp/buntdb"
-	"github.com/Sora233/DDBOT/lsp/concern"
-	localutils "github.com/Sora233/DDBOT/utils"
+	localdb "github.com/starskim/DDBOT/lsp/buntdb"
+	"github.com/starskim/DDBOT/lsp/concern"
+	localutils "github.com/starskim/DDBOT/utils"
 	"github.com/tidwall/buntdb"
 	"time"
 )

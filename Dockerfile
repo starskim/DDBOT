@@ -14,7 +14,7 @@ COPY ./ .
 
 RUN set -ex \
     && cd /build \
-    && go build -ldflags "-X 'github.com/Sora233/DDBOT/lsp.BuildTime=$BUILD_TIME' -X 'github.com/Sora233/DDBOT/lsp.CommitId=$COMMIT_ID' -X 'github.com/Sora233/DDBOT/lsp.Tags=$Tags'" -o DDBOT github.com/Sora233/DDBOT/cmd
+    && go build -ldflags "-X 'github.com/starskim/DDBOT/lsp.BuildTime=$BUILD_TIME' -X 'github.com/starskim/DDBOT/lsp.CommitId=$COMMIT_ID' -X 'github.com/starskim/DDBOT/lsp.Tags=$Tags'" -o DDBOT github.com/starskim/DDBOT/cmd
 
 FROM alpine:latest
 

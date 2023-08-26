@@ -1,11 +1,11 @@
 package youtube
 
 import (
-	"github.com/Sora233/DDBOT/lsp/concern_type"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
-	"github.com/Sora233/DDBOT/proxy_pool"
-	"github.com/Sora233/DDBOT/requests"
-	localutils "github.com/Sora233/DDBOT/utils"
+	"github.com/starskim/DDBOT/lsp/concern_type"
+	"github.com/starskim/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/proxy_pool"
+	"github.com/starskim/DDBOT/requests"
+	localutils "github.com/starskim/DDBOT/utils"
 	"github.com/sirupsen/logrus"
 	"sync"
 )

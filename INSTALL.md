@@ -6,7 +6,7 @@
 
 ## 预编译版本
 
-从 [Release](https://github.com/Sora233/DDBOT/releases) 中下载适合您的版本，版本规则：
+从 [Release](https://github.com/starskim/DDBOT/releases) 中下载适合您的版本，版本规则：
 
 - 根据系统选择windows / linux / darwin
 - 根据架构选择 32位->386 / 64位->amd64 / arm->arm

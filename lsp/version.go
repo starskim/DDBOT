@@ -1,8 +1,8 @@
 package lsp
 
 import (
-	"github.com/Sora233/DDBOT/proxy_pool"
-	"github.com/Sora233/DDBOT/requests"
+	"github.com/starskim/DDBOT/proxy_pool"
+	"github.com/starskim/DDBOT/requests"
 	"github.com/sirupsen/logrus"
 	"strconv"
 	"strings"
@@ -31,7 +31,7 @@ func CheckUpdate() string {
 		requests.RetryOption(2),
 	}
 	var m map[string]interface{}
-	err := requests.Get("https://api.github.com/repos/Sora233/DDBOT/releases/latest", nil, &m, opts...)
+	err := requests.Get("https://api.github.com/repos/starskim/DDBOT/releases/latest", nil, &m, opts...)
 	if err != nil {
 		logrus.Errorf("更新检测失败：%v", err)
 		return ""
@@ -45,7 +45,7 @@ func CheckUpdate() string {
 	latestTagName := m["tag_name"].(string)
 
 	if compareVersion(Tags, latestTagName) {
-		logrus.Infof("更新检测完成：DDBOT有可用更新版本【%v】，请前往 https://github.com/Sora233/DDBOT/releases 查看详细信息\n", latestTagName)
+		logrus.Infof("更新检测完成：DDBOT有可用更新版本【%v】，请前往 https://github.com/starskim/DDBOT/releases 查看详细信息\n", latestTagName)
 		return latestTagName
 	} else {
 		logrus.Debug("更新检测完成：当前为DDBOT最新版本")

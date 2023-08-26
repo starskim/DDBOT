@@ -2,7 +2,7 @@ package version
 
 import (
 	"errors"
-	localdb "github.com/Sora233/DDBOT/lsp/buntdb"
+	localdb "github.com/starskim/DDBOT/lsp/buntdb"
 	"github.com/starskim/MiraiGo-Template/utils"
 )
 

@@ -1,7 +1,7 @@
 package lsp
 
 import (
-	"github.com/Sora233/DDBOT/lsp/cfg"
+	"github.com/starskim/DDBOT/lsp/cfg"
 	"github.com/Sora233/sliceutil"
 )
 

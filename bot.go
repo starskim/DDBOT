@@ -2,8 +2,8 @@ package DDBOT
 
 import (
 	"fmt"
-	"github.com/Sora233/DDBOT/lsp"
-	"github.com/Sora233/DDBOT/warn"
+	"github.com/starskim/DDBOT/lsp"
+	"github.com/starskim/DDBOT/warn"
 	"github.com/starskim/MiraiGo-Template/bot"
 	"github.com/starskim/MiraiGo-Template/config"
 	rotatelogs "github.com/lestrrat-go/file-rotatelogs"
@@ -18,14 +18,14 @@ import (
 	"syscall"
 	"time"
 
-	_ "github.com/Sora233/DDBOT/logging"
-	_ "github.com/Sora233/DDBOT/lsp/acfun"
-	_ "github.com/Sora233/DDBOT/lsp/douyu"
-	_ "github.com/Sora233/DDBOT/lsp/huya"
-	_ "github.com/Sora233/DDBOT/lsp/twitcasting"
-	_ "github.com/Sora233/DDBOT/lsp/weibo"
-	_ "github.com/Sora233/DDBOT/lsp/youtube"
-	_ "github.com/Sora233/DDBOT/msg-marker"
+	_ "github.com/starskim/DDBOT/logging"
+	_ "github.com/starskim/DDBOT/lsp/acfun"
+	_ "github.com/starskim/DDBOT/lsp/douyu"
+	_ "github.com/starskim/DDBOT/lsp/huya"
+	_ "github.com/starskim/DDBOT/lsp/twitcasting"
+	_ "github.com/starskim/DDBOT/lsp/weibo"
+	_ "github.com/starskim/DDBOT/lsp/youtube"
+	_ "github.com/starskim/DDBOT/msg-marker"
 )
 
 // SetUpLog 使用默认的日志格式配置，会写入到logs文件夹内，日志会保留七天

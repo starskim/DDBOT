@@ -1,8 +1,8 @@
 # DDBOT
 
-[<img src="https://github.com/Sora233/DDBOT/actions/workflows/ci.yml/badge.svg"/>](https://github.com/Sora233/DDBOT/actions/workflows/ci.yml)
-[<img src="https://coveralls.io/repos/github/Sora233/DDBOT/badge.svg?branch=master"/>](https://coveralls.io/github/Sora233/DDBOT)
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/Sora233/DDBOT)
+[<img src="https://github.com/starskim/DDBOT/actions/workflows/ci.yml/badge.svg"/>](https://github.com/starskim/DDBOT/actions/workflows/ci.yml)
+[<img src="https://coveralls.io/repos/github/starskim/DDBOT/badge.svg?branch=master"/>](https://coveralls.io/github/starskim/DDBOT)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://pkg.go.dev/github.com/starskim/DDBOT)
 
 DDBOT是一个基于 [MiraiGO](https://github.com/Mrs4s/MiraiGo) 的QQ群推送框架， 内置支持b站直播/动态，斗鱼直播，YTB直播/预约直播，虎牙直播，ACFUN直播，微博动态，
 也可以通过插件支持任何订阅源。
@@ -137,7 +137,7 @@ DDBOT已实现消息模板功能，一些内置命令和推送可通过模板自
 
 您也可以选择点一下右上角的⭐星⭐
 
-发现问题或功能建议请到 [issues](https://github.com/Sora233/DDBOT/issues)
+发现问题或功能建议请到 [issues](https://github.com/starskim/DDBOT/issues)
 
 其他用法问题请到**唯一指定交流群：755612788**
 
@@ -178,4 +178,4 @@ DDBOT已实现消息模板功能，一些内置命令和推送可通过模板自
 
 ## DDBOT:star:趋势图
 
-[![Stargazers over time](https://starchart.cc/Sora233/DDBOT.svg)](https://starchart.cc/Sora233/DDBOT)
+[![Stargazers over time](https://starchart.cc/starskim/DDBOT.svg)](https://starchart.cc/starskim/DDBOT)

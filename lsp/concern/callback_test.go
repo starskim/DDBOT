@@ -1,9 +1,9 @@
 package concern
 
 import (
-	"github.com/Sora233/DDBOT/internal/test"
-	"github.com/Sora233/DDBOT/lsp/concern_type"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/internal/test"
+	"github.com/starskim/DDBOT/lsp/concern_type"
+	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/sirupsen/logrus"
 	"testing"
 )

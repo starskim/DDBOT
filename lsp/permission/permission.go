@@ -1,7 +1,7 @@
 package permission
 
 import (
-	localutils "github.com/Sora233/DDBOT/utils"
+	localutils "github.com/starskim/DDBOT/utils"
 	"github.com/sirupsen/logrus"
 )
 

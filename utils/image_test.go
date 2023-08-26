@@ -2,7 +2,7 @@ package utils
 
 import (
 	"bytes"
-	"github.com/Sora233/DDBOT/internal/test"
+	"github.com/starskim/DDBOT/internal/test"
 	"github.com/stretchr/testify/assert"
 	"image"
 	_ "image/draw"

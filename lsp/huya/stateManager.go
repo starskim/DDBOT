@@ -2,8 +2,8 @@ package huya
 
 import (
 	"errors"
-	localdb "github.com/Sora233/DDBOT/lsp/buntdb"
-	"github.com/Sora233/DDBOT/lsp/concern"
+	localdb "github.com/starskim/DDBOT/lsp/buntdb"
+	"github.com/starskim/DDBOT/lsp/concern"
 	"time"
 )
 

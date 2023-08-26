@@ -3,8 +3,8 @@ package bilibili
 import (
 	"errors"
 	"fmt"
-	"github.com/Sora233/DDBOT/proxy_pool"
-	"github.com/Sora233/DDBOT/requests"
+	"github.com/starskim/DDBOT/proxy_pool"
+	"github.com/starskim/DDBOT/requests"
 	"github.com/starskim/MiraiGo-Template/config"
 	jsoniter "github.com/json-iterator/go"
 	"go.uber.org/atomic"

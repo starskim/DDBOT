@@ -2,7 +2,7 @@ package msgstringer
 
 import (
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/davecgh/go-spew/spew"
 	"strconv"
 	"strings"

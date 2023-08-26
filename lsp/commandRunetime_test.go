@@ -1,10 +1,10 @@
 package lsp
 
 import (
-	"github.com/Sora233/DDBOT/internal/test"
-	tc "github.com/Sora233/DDBOT/internal/test_concern"
-	"github.com/Sora233/DDBOT/lsp/concern"
-	"github.com/Sora233/DDBOT/lsp/concern_type"
+	"github.com/starskim/DDBOT/internal/test"
+	tc "github.com/starskim/DDBOT/internal/test_concern"
+	"github.com/starskim/DDBOT/lsp/concern"
+	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

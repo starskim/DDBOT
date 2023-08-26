@@ -1,6 +1,6 @@
 package permission
 
-import localdb "github.com/Sora233/DDBOT/lsp/buntdb"
+import localdb "github.com/starskim/DDBOT/lsp/buntdb"
 
 type KeySet struct{}
 

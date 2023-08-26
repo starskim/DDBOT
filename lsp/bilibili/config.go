@@ -3,8 +3,8 @@ package bilibili
 import (
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/message"
-	localdb "github.com/Sora233/DDBOT/lsp/buntdb"
-	"github.com/Sora233/DDBOT/lsp/concern"
+	localdb "github.com/starskim/DDBOT/lsp/buntdb"
+	"github.com/starskim/DDBOT/lsp/concern"
 	"strconv"
 	"strings"
 )

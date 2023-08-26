@@ -3,8 +3,8 @@ package permission
 import (
 	"errors"
 	"github.com/Mrs4s/MiraiGo/client"
-	localdb "github.com/Sora233/DDBOT/lsp/buntdb"
-	localutils "github.com/Sora233/DDBOT/utils"
+	localdb "github.com/starskim/DDBOT/lsp/buntdb"
+	localutils "github.com/starskim/DDBOT/utils"
 	"github.com/starskim/MiraiGo-Template/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/buntdb"

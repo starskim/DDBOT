@@ -2,7 +2,7 @@ package requests
 
 import (
 	"fmt"
-	"github.com/Sora233/DDBOT/proxy_pool"
+	"github.com/starskim/DDBOT/proxy_pool"
 	"github.com/starskim/MiraiGo-Template/utils"
 	"github.com/guonaihong/gout"
 	"github.com/guonaihong/gout/dataflow"

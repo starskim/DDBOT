@@ -3,7 +3,7 @@ package lolicon_pool
 import (
 	"container/list"
 	"fmt"
-	"github.com/Sora233/DDBOT/image_pool"
+	"github.com/starskim/DDBOT/image_pool"
 	"github.com/starskim/MiraiGo-Template/utils"
 	"sync"
 	"time"

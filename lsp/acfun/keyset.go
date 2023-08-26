@@ -1,6 +1,6 @@
 package acfun
 
-import localdb "github.com/Sora233/DDBOT/lsp/buntdb"
+import localdb "github.com/starskim/DDBOT/lsp/buntdb"
 
 type extraKey struct{}
 

@@ -1,7 +1,7 @@
 package weibo
 
 import (
-	"github.com/Sora233/DDBOT/requests"
+	"github.com/starskim/DDBOT/requests"
 	jsoniter "github.com/json-iterator/go"
 	"go.uber.org/atomic"
 )

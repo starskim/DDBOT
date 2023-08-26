@@ -3,9 +3,9 @@ package template
 import (
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/Sora233/DDBOT/internal/test"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
-	"github.com/Sora233/DDBOT/utils/msgstringer"
+	"github.com/starskim/DDBOT/internal/test"
+	"github.com/starskim/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/utils/msgstringer"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"path/filepath"

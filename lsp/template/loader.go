@@ -3,7 +3,7 @@ package template
 import (
 	"embed"
 	"fmt"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/fsnotify/fsnotify"
 	"os"
 	"path/filepath"

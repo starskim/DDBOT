@@ -3,9 +3,9 @@ package bilibili
 import (
 	"context"
 	"fmt"
-	"github.com/Sora233/DDBOT/lsp/cfg"
-	"github.com/Sora233/DDBOT/lsp/concern"
-	"github.com/Sora233/DDBOT/lsp/concern_type"
+	"github.com/starskim/DDBOT/lsp/cfg"
+	"github.com/starskim/DDBOT/lsp/concern"
+	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/MiraiGo-Template/config"
 	"github.com/sirupsen/logrus"
 	"github.com/tidwall/buntdb"

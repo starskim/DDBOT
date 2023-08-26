@@ -2,9 +2,9 @@ package lsp
 
 import (
 	"fmt"
-	"github.com/Sora233/DDBOT/lsp/cfg"
-	"github.com/Sora233/DDBOT/lsp/mmsg"
-	"github.com/Sora233/DDBOT/lsp/template"
+	"github.com/starskim/DDBOT/lsp/cfg"
+	"github.com/starskim/DDBOT/lsp/mmsg"
+	"github.com/starskim/DDBOT/lsp/template"
 	"github.com/sirupsen/logrus"
 	"sync"
 )
