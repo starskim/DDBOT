@@ -259,6 +259,8 @@ github.com/sirupsen/logrus v1.9.3 h1:dueUQJ1C2q9oE3F7wvmSGAaVtTmUizReu6fjN8uqzbQ
 github.com/sirupsen/logrus v1.9.3/go.mod h1:naHLuLoDiP4jHNo9R0sCBMtWGeIprob74mVsIT4qYEQ=
 github.com/spf13/afero v1.9.5 h1:stMpOSZFs//0Lv29HduCmli3GUfpFoF3Y1Q/aXj/wVM=
 github.com/spf13/afero v1.9.5/go.mod h1:UBogFpq8E9Hx+xc5CNTTEpTnuHVmXDwZcZcE1eb/UhQ=
+github.com/spf13/afero v1.10.0 h1:EaGW2JJh15aKOejeuJ+wpFSHnbd7GE6Wvp3TsNhb6LY=
+github.com/spf13/afero v1.10.0/go.mod h1:UBogFpq8E9Hx+xc5CNTTEpTnuHVmXDwZcZcE1eb/UhQ=
 github.com/spf13/cast v1.5.1 h1:R+kOtfhWQE6TVQzY+4D7wJLBgkdVasCEFxSUBYBYIlA=
 github.com/spf13/cast v1.5.1/go.mod h1:b9PdjNptOpzXr7Rq1q9gJML/2cdGQAo69NKzQ10KN48=
 github.com/spf13/jwalterweatherman v1.1.0 h1:ue6voC5bR5F8YxI5S67j9i582FU4Qvo2bmqnqMYADFk=
@@ -271,6 +273,10 @@ github.com/starskim/MiraiGo-Template v0.0.0-20230823205851-3078433105c8 h1:wsGZQ
 github.com/starskim/MiraiGo-Template v0.0.0-20230823205851-3078433105c8/go.mod h1:rlWzB15U0UKPYkVywSVfCvj86qMzaVeolbfqSTvb8zY=
 github.com/starskim/MiraiGo-Template v0.0.0-20230918154554-2cfa449106da h1:6VxqscmcZdENJsFqdJ67gMYYCwdyovEhadybrVWeqSc=
 github.com/starskim/MiraiGo-Template v0.0.0-20230918154554-2cfa449106da/go.mod h1:pTZthVneLwY/7SFGHuhMjDnQtk31v9SZwk31FRNlsEY=
+github.com/starskim/MiraiGo-Template v0.0.0-20230924161409-a19c3e974a5a h1:NzGvrh0xd58oNICeP2Hr0m5JgNH34APdUmD7nGHjNyM=
+github.com/starskim/MiraiGo-Template v0.0.0-20230924161409-a19c3e974a5a/go.mod h1:OfFvDlQaS1FAfNPAauoUmLi5YTC2qTSuabZsOWg+t5Y=
+github.com/starskim/MiraiGo-Template v0.0.0-20230924171956-86e40d8067a9 h1:c2pXHv1m2hqhjNRtDi3jL14Ll4AJ08VrT8vbZY5VDwE=
+github.com/starskim/MiraiGo-Template v0.0.0-20230924171956-86e40d8067a9/go.mod h1:OfFvDlQaS1FAfNPAauoUmLi5YTC2qTSuabZsOWg+t5Y=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=
 github.com/stretchr/objx v0.5.0/go.mod h1:Yh+to48EsGEfYuaHDzXPcE3xhTkx73EhmCGUpEOglKo=
@@ -296,6 +302,8 @@ github.com/tidwall/buntdb v1.3.0/go.mod h1:lZZrZUWzlyDJKlLQ6DKAy53LnG7m5kHyrEHvv
 github.com/tidwall/gjson v1.12.1/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/gjson v1.16.0 h1:SyXa+dsSPpUlcwEDuKuEBJEz5vzTvOea+9rjyYodQFg=
 github.com/tidwall/gjson v1.16.0/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
+github.com/tidwall/gjson v1.17.0 h1:/Jocvlh98kcTfpN2+JzGQWQcqrPQwDrVEMApx/M5ZwM=
+github.com/tidwall/gjson v1.17.0/go.mod h1:/wbyibRr2FHMks5tjHJ5F8dMZh3AcwJEMf5vlfC0lxk=
 github.com/tidwall/grect v0.1.4 h1:dA3oIgNgWdSspFzn1kS4S/RDpZFLrIxAZOdJKjYapOg=
 github.com/tidwall/grect v0.1.4/go.mod h1:9FBsaYRaR0Tcy4UwefBX/UDcDcDy9V5jUcxHzv2jd5Q=
 github.com/tidwall/match v1.1.1 h1:+Ho715JplO36QYgwN9PGYNhgZvoUSc9X2c80KVTi+GA=

@@ -110,6 +110,7 @@ func Run() {
 		os.Exit(1)
 	}
 	config.GlobalConfig.WatchConfig()
+	config.Base()
 
 	// 快速初始化
 	bot.Init()
