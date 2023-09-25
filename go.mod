@@ -18,7 +18,7 @@ require (
 	github.com/guonaihong/gout v0.3.8
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/huandu/xstrings v1.4.0
-	github.com/imdario/mergo v0.3.16
+	dario.cat/mergo v1.0.0
 	github.com/json-iterator/go v1.1.12
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/mitchellh/copystructure v1.2.0
@@ -31,7 +31,7 @@ require (
 	github.com/shopspring/decimal v1.3.1
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cast v1.5.1
-	github.com/starskim/MiraiGo-Template v0.0.0-20230924205750-392219718b31
+	github.com/starskim/MiraiGo-Template v0.0.0-20230925173749-5800cd6d8fec
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/buntdb v1.3.0
 	github.com/tidwall/gjson v1.17.0
