@@ -4,8 +4,11 @@ on:
   push:
     branches:
       - 'master'
-  release:
-    types: [ created ]
+      - 'develop'
+    # Sequence of patterns matched against refs/tags
+    tags:
+      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
   workflow_dispatch:
 
 jobs:
@@ -35,11 +38,11 @@ jobs:
           fi
 
       # # 如果有 dockerhub 账户，可以在github的secrets中配置下面两个，然后取消下面注释的这几行，并在meta步骤的images增加一行 ${{ github.repository }}
-      # - name: Login to DockerHub
-      #   uses: docker/login-action@v1
-      #   with:
-      #     username: ${{ secrets.DOCKERHUB_USERNAME }}
-      #     password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Login to DockerHub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Login to GHCR
         uses: docker/login-action@v3
@@ -53,6 +56,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
+            ${{ github.repository }}
             ghcr.io/${{ github.repository }}
           # generate Docker tags based on the following events/attributes
           #   nightly, master, pr-2, 1.2.3, 1.2, 1
