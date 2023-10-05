@@ -3,6 +3,7 @@ module github.com/starskim/DDBOT
 go 1.20
 
 require (
+	dario.cat/mergo v1.0.0
 	github.com/Jeffail/gabs/v2 v2.7.0
 	github.com/Mrs4s/MiraiGo v0.0.0-20230823050531-a8213e127b2b
 	github.com/PuerkitoBio/goquery v1.8.1
@@ -18,7 +19,6 @@ require (
 	github.com/guonaihong/gout v0.3.8
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/huandu/xstrings v1.4.0
-	dario.cat/mergo v1.0.0
 	github.com/json-iterator/go v1.1.12
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/mitchellh/copystructure v1.2.0
@@ -36,7 +36,7 @@ require (
 	github.com/tidwall/buntdb v1.3.0
 	github.com/tidwall/gjson v1.17.0
 	go.uber.org/atomic v1.11.0
-	golang.org/x/sync v0.3.0
+	golang.org/x/sync v0.4.0
 	google.golang.org/protobuf v1.31.0
 )
 
