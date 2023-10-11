@@ -8,7 +8,7 @@ require (
 	github.com/Mrs4s/MiraiGo v0.0.0-20230823050531-a8213e127b2b
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/Sora233/sliceutil v0.0.0-20210120043858-459badd8d882
-	github.com/alecthomas/kong v0.8.0
+	github.com/alecthomas/kong v0.8.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dimchansky/utfbom v1.1.1
 	github.com/ericpauley/go-quantize v0.0.0-20200331213906-ae555eb2afa4
