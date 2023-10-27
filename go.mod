@@ -15,7 +15,7 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/gofrs/flock v0.8.1
-	github.com/google/uuid v1.3.1
+	github.com/google/uuid v1.4.0
 	github.com/guonaihong/gout v0.3.8
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/huandu/xstrings v1.4.0
