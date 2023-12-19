@@ -16,7 +16,7 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/gofrs/flock v0.8.1
 	github.com/google/uuid v1.5.0
-	github.com/guonaihong/gout v0.3.8
+	github.com/guonaihong/gout v0.3.9
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/huandu/xstrings v1.4.0
 	github.com/json-iterator/go v1.1.12

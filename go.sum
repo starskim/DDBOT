@@ -181,8 +181,8 @@ github.com/google/uuid v1.5.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+
 github.com/googleapis/gax-go/v2 v2.0.4/go.mod h1:0Wqv26UfaUD9n4G6kQubkQ+KchISgw+vpHVxEJEs9eg=
 github.com/googleapis/gax-go/v2 v2.0.5/go.mod h1:DWXyrwAJ9X0FpwwEdw+IPEYBICEFu5mhpdKc/us6bOk=
 github.com/googleapis/google-cloud-go-testing v0.0.0-20200911160855-bcd43fbb19e8/go.mod h1:dvDLG8qkwmyD9a/MJJN3XJcT3xFxOKAvTZGvuZmac9g=
-github.com/guonaihong/gout v0.3.8 h1:t0yjR0DgwVX6L4Zf/gv7ZVUcVPMicEpnnWjk3XxFTKA=
-github.com/guonaihong/gout v0.3.8/go.mod h1:wDXeuyeZR6MtaHbytO9RLcKW4iCDrWD6/KF1QwDtbRc=
+github.com/guonaihong/gout v0.3.9 h1:bWaoD9mgAQwzIZhau+QOsLOxgRSZRL+wAIYVqqkwPEw=
+github.com/guonaihong/gout v0.3.9/go.mod h1:wDXeuyeZR6MtaHbytO9RLcKW4iCDrWD6/KF1QwDtbRc=
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.1/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v1.0.2 h1:dV3g9Z/unq5DpblPpw+Oqcv4dU/1omnb4Ok8iPY6p1c=
