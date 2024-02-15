@@ -34,7 +34,7 @@ require (
 	github.com/starskim/MiraiGo-Template v0.0.0-20231019102208-0e0f0f3e54bf
 	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/buntdb v1.3.0
-	github.com/tidwall/gjson v1.17.0
+	github.com/tidwall/gjson v1.17.1
 	go.uber.org/atomic v1.11.0
 	golang.org/x/sync v0.6.0
 	google.golang.org/protobuf v1.32.0
