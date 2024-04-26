@@ -3,10 +3,10 @@ package bilibili
 import (
 	"errors"
 	"fmt"
+	jsoniter "github.com/json-iterator/go"
 	"github.com/starskim/DDBOT/proxy_pool"
 	"github.com/starskim/DDBOT/requests"
 	"github.com/starskim/MiraiGo-Template/config"
-	jsoniter "github.com/json-iterator/go"
 	"go.uber.org/atomic"
 	"strconv"
 	"strings"

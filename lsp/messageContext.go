@@ -2,8 +2,8 @@ package lsp
 
 import (
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/sirupsen/logrus"
+	"github.com/starskim/DDBOT/lsp/mmsg"
 )
 
 type MessageContext struct {

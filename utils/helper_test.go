@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"github.com/starskim/DDBOT/internal/test"
 	"github.com/guonaihong/gout"
+	"github.com/starskim/DDBOT/internal/test"
 	"github.com/stretchr/testify/assert"
 	"html"
 	"io/ioutil"

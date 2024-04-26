@@ -2,9 +2,9 @@ package weibo
 
 import (
 	"context"
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/internal/test"
 	"github.com/starskim/DDBOT/lsp/concern"
-	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

@@ -3,11 +3,11 @@ package concern
 import (
 	"context"
 	"errors"
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/internal/test"
 	localdb "github.com/starskim/DDBOT/lsp/buntdb"
 	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/DDBOT/lsp/mmsg"
-	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/buntdb"
 	"go.uber.org/atomic"

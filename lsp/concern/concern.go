@@ -1,9 +1,9 @@
 package concern
 
 import (
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/DDBOT/lsp/mmsg"
-	"github.com/sirupsen/logrus"
 )
 
 // Event 是对事件的一个抽象，它可以表示发表动态，发表微博，发布文章，发布视频，是订阅对象做出的行为

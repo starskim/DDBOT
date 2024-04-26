@@ -2,11 +2,11 @@ package requests
 
 import (
 	"fmt"
-	"github.com/starskim/DDBOT/proxy_pool"
-	"github.com/starskim/MiraiGo-Template/utils"
 	"github.com/guonaihong/gout"
 	"github.com/guonaihong/gout/dataflow"
 	"github.com/guonaihong/gout/middler"
+	"github.com/starskim/DDBOT/proxy_pool"
+	"github.com/starskim/MiraiGo-Template/utils"
 	"io"
 	"net/http"
 	"strings"

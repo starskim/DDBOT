@@ -2,10 +2,10 @@ package lsp
 
 import (
 	"fmt"
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/lsp/cfg"
 	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/starskim/DDBOT/lsp/template"
-	"github.com/sirupsen/logrus"
 	"sync"
 )
 

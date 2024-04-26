@@ -1,9 +1,9 @@
 package template
 
 import (
+	"github.com/spf13/cast"
 	"github.com/starskim/DDBOT/proxy_pool"
 	"github.com/starskim/DDBOT/requests"
-	"github.com/spf13/cast"
 	"reflect"
 	"strings"
 )

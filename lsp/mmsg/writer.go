@@ -3,8 +3,8 @@ package mmsg
 import (
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/starskim/DDBOT/requests"
 	"github.com/samber/lo"
+	"github.com/starskim/DDBOT/requests"
 	"strings"
 	"unicode"
 )

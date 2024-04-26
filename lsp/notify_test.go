@@ -2,13 +2,13 @@ package lsp
 
 import (
 	"github.com/Mrs4s/MiraiGo/message"
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/internal/test"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/starskim/DDBOT/lsp/permission"
 	"github.com/starskim/DDBOT/utils/msgstringer"
-	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

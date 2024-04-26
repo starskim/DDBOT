@@ -1,10 +1,10 @@
 package weibo
 
 import (
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/DDBOT/lsp/mmsg"
 	localutils "github.com/starskim/DDBOT/utils"
-	"github.com/sirupsen/logrus"
 	"strings"
 	"sync"
 	"time"

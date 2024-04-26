@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/alecthomas/kong"
 	"github.com/starskim/DDBOT"
 	_ "github.com/starskim/DDBOT/logging"
 	"github.com/starskim/DDBOT/lsp"
@@ -16,7 +17,6 @@ import (
 	_ "github.com/starskim/DDBOT/msg-marker"
 	"github.com/starskim/DDBOT/warn"
 	"github.com/starskim/MiraiGo-Template/config"
-	"github.com/alecthomas/kong"
 	"net/http"
 	_ "net/http/pprof"
 	"os"

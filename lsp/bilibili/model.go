@@ -2,13 +2,13 @@ package bilibili
 
 import (
 	"github.com/Mrs4s/MiraiGo/message"
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/starskim/DDBOT/lsp/template"
 	localutils "github.com/starskim/DDBOT/utils"
 	"github.com/starskim/DDBOT/utils/blockCache"
 	"github.com/starskim/MiraiGo-Template/config"
-	"github.com/sirupsen/logrus"
 	"strings"
 	"sync"
 )

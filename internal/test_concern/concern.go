@@ -2,10 +2,10 @@ package test_concern
 
 import (
 	"fmt"
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/DDBOT/lsp/mmsg"
-	"github.com/sirupsen/logrus"
 )
 
 type TestEvent struct {

@@ -1,9 +1,9 @@
 package lsp
 
 import (
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/proxy_pool"
 	"github.com/starskim/DDBOT/requests"
-	"github.com/sirupsen/logrus"
 	"strconv"
 	"strings"
 	"time"

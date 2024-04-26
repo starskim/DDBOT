@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 	"github.com/Mrs4s/MiraiGo/message"
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/starskim/DDBOT/utils"
 	"github.com/starskim/DDBOT/utils/msgstringer"
-	"github.com/sirupsen/logrus"
 	"runtime/debug"
 	"time"
 )

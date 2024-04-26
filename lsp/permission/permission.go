@@ -1,8 +1,8 @@
 package permission
 
 import (
-	localutils "github.com/starskim/DDBOT/utils"
 	"github.com/sirupsen/logrus"
+	localutils "github.com/starskim/DDBOT/utils"
 )
 
 type RoleType int64

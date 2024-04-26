@@ -2,11 +2,11 @@ package lsp
 
 import (
 	"fmt"
+	"github.com/alecthomas/kong"
 	"github.com/starskim/DDBOT/lsp/concern"
 	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/DDBOT/lsp/parser"
 	localutils "github.com/starskim/DDBOT/utils"
-	"github.com/alecthomas/kong"
 	"io"
 	"strings"
 )

@@ -1,10 +1,10 @@
 package concern
 
 import (
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/internal/test"
 	"github.com/starskim/DDBOT/lsp/concern_type"
 	"github.com/starskim/DDBOT/lsp/mmsg"
-	"github.com/sirupsen/logrus"
 	"testing"
 )
 

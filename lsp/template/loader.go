@@ -3,8 +3,8 @@ package template
 import (
 	"embed"
 	"fmt"
-	"github.com/starskim/DDBOT/lsp/mmsg"
 	"github.com/fsnotify/fsnotify"
+	"github.com/starskim/DDBOT/lsp/mmsg"
 	"os"
 	"path/filepath"
 	"strings"

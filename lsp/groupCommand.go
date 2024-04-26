@@ -13,6 +13,9 @@ import (
 	"time"
 
 	"github.com/Mrs4s/MiraiGo/message"
+	"github.com/Sora233/sliceutil"
+	"github.com/alecthomas/kong"
+	"github.com/sirupsen/logrus"
 	"github.com/starskim/DDBOT/image_pool"
 	"github.com/starskim/DDBOT/image_pool/lolicon_pool"
 	localdb "github.com/starskim/DDBOT/lsp/buntdb"
@@ -21,9 +24,6 @@ import (
 	"github.com/starskim/DDBOT/lsp/permission"
 	"github.com/starskim/DDBOT/utils"
 	"github.com/starskim/MiraiGo-Template/config"
-	"github.com/Sora233/sliceutil"
-	"github.com/alecthomas/kong"
-	"github.com/sirupsen/logrus"
 )
 
 type LspGroupCommand struct {

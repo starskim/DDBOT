@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"errors"
 	"github.com/Mrs4s/MiraiGo/message"
-	"github.com/starskim/MiraiGo-Template/bot"
 	"github.com/samber/lo"
+	"github.com/starskim/MiraiGo-Template/bot"
 )
 
 func MessageFilter(msg []message.IMessageElement, filter func(message.IMessageElement) bool) []message.IMessageElement {
