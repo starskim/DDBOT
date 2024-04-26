@@ -50,62 +50,11 @@ func BilibiliGroupConcernStateKey(keys ...interface{}) string {
 func BilibiliGroupConcernConfigKey(keys ...interface{}) string {
 	return NamedKey("ConcernConfig", keys)
 }
-func BilibliFreshKey(keys ...interface{}) string {
-	return NamedKey("fresh", keys)
-}
-func BilibiliCurrentLiveKey(keys ...interface{}) string {
-	return NamedKey("CurrentLive", keys)
-}
-func BilibiliCurrentNewsKey(keys ...interface{}) string {
-	return NamedKey("CurrentNews", keys)
-}
-func BilibiliDynamicIdKey(keys ...interface{}) string {
-	return NamedKey("DynamicId", keys)
-}
-func BilibiliUidFirstTimestampKey(keys ...interface{}) string {
-	return NamedKey("UidFirstTimestamp", keys)
-}
-func BilibiliUserCookieInfoKey(keys ...interface{}) string {
-	return NamedKey("UserCookieInfo", keys)
-}
-func BilibiliNotLiveCountKey(keys ...interface{}) string {
-	return NamedKey("NotLiveCount", keys)
-}
-func BilibiliUserInfoKey(keys ...interface{}) string {
-	return NamedKey("UserInfo", keys)
-}
-func BilibiliUserStatKey(keys ...interface{}) string {
-	return NamedKey("UserStat", keys)
-}
-func BilibiliGroupAtAllMarkKey(keys ...interface{}) string {
-	return NamedKey("GroupAtAll", keys)
-}
-func BilibiliCompactMarkKey(keys ...interface{}) string {
-	return NamedKey("CompactMark", keys)
-}
-func BilibiliNotifyMsgKey(keys ...interface{}) string {
-	return NamedKey("NotifyMsg", keys)
-}
-func BilibiliActiveTimestampKey(keys ...interface{}) string {
-	return NamedKey("ActiveTimestamp", keys)
-}
-func BilibiliLastFreshKey(keys ...interface{}) string {
-	return NamedKey("BilibiliLastFresh", keys)
-}
 func DouyuGroupConcernStateKey(keys ...interface{}) string {
 	return NamedKey("DouyuConcernState", keys)
 }
 func DouyuGroupConcernConfigKey(keys ...interface{}) string {
 	return NamedKey("DouyuConcernConfig", keys)
-}
-func DouyuFreshKey(keys ...interface{}) string {
-	return NamedKey("douyuFresh", keys)
-}
-func DouyuCurrentLiveKey(keys ...interface{}) string {
-	return NamedKey("DouyuCurrentLive", keys)
-}
-func DouyuGroupAtAllMarkKey(keys ...interface{}) string {
-	return NamedKey("DouyuGroupAtAll", keys)
 }
 func YoutubeGroupConcernStateKey(keys ...interface{}) string {
 	return NamedKey("YoutubeConcernState", keys)
@@ -113,56 +62,11 @@ func YoutubeGroupConcernStateKey(keys ...interface{}) string {
 func YoutubeGroupConcernConfigKey(keys ...interface{}) string {
 	return NamedKey("YoutubeConcernConfig", keys)
 }
-func YoutubeFreshKey(keys ...interface{}) string {
-	return NamedKey("youtubeFresh", keys)
-}
-func YoutubeUserInfoKey(keys ...interface{}) string {
-	return NamedKey("YoutubeUserInfo", keys)
-}
-func YoutubeInfoKey(keys ...interface{}) string {
-	return NamedKey("YoutubeInfo", keys)
-}
-func YoutubeVideoKey(keys ...interface{}) string {
-	return NamedKey("YoutubeVideo", keys)
-}
-func YoutubeGroupAtAllMarkKey(keys ...interface{}) string {
-	return NamedKey("YoutubeGroupAtAll", keys)
-}
 func HuyaGroupConcernStateKey(keys ...interface{}) string {
 	return NamedKey("HuyaConcernState", keys)
 }
 func HuyaGroupConcernConfigKey(keys ...interface{}) string {
 	return NamedKey("HuyaConcernConfig", keys)
-}
-func HuyaFreshKey(keys ...interface{}) string {
-	return NamedKey("huyaFresh", keys)
-}
-func HuyaCurrentLiveKey(keys ...interface{}) string {
-	return NamedKey("HuyaCurrentLive", keys)
-}
-func HuyaGroupAtAllMarkKey(keys ...interface{}) string {
-	return NamedKey("HuyaGroupAtAll", keys)
-}
-func AcfunUserInfoKey(keys ...interface{}) string {
-	return NamedKey("AcfunUserInfo", keys)
-}
-func AcfunLiveInfoKey(keys ...interface{}) string {
-	return NamedKey("AcfunLiveInfo", keys)
-}
-func AcfunNotLiveKey(keys ...interface{}) string {
-	return NamedKey("AcfunNotLiveCount", keys)
-}
-func AcfunUidFirstTimestampKey(keys ...interface{}) string {
-	return NamedKey("AcfunUidFirstTimestamp", keys)
-}
-func WeiboUserInfoKey(keys ...interface{}) string {
-	return NamedKey("WeiboUserInfo", keys)
-}
-func WeiboNewsInfoKey(keys ...interface{}) string {
-	return NamedKey("WeiboNewsInfo", keys)
-}
-func WeiboMarkMblogIdKey(keys ...interface{}) string {
-	return NamedKey("WeiboMarkMblogId", keys)
 }
 
 func PermissionKey(keys ...interface{}) string {

@@ -17,13 +17,13 @@ import (
 	"syscall"
 	"time"
 
+	_ "github.com/starskim/DDBOT-Plugins/acfun"
+	_ "github.com/starskim/DDBOT-Plugins/douyu"
+	_ "github.com/starskim/DDBOT-Plugins/huya"
+	_ "github.com/starskim/DDBOT-Plugins/twitcasting"
+	_ "github.com/starskim/DDBOT-Plugins/weibo"
+	_ "github.com/starskim/DDBOT-Plugins/youtube"
 	_ "github.com/starskim/DDBOT/logging"
-	_ "github.com/starskim/DDBOT/lsp/acfun"
-	_ "github.com/starskim/DDBOT/lsp/douyu"
-	_ "github.com/starskim/DDBOT/lsp/huya"
-	_ "github.com/starskim/DDBOT/lsp/twitcasting"
-	_ "github.com/starskim/DDBOT/lsp/weibo"
-	_ "github.com/starskim/DDBOT/lsp/youtube"
 	_ "github.com/starskim/DDBOT/msg-marker"
 )
 
