@@ -11,6 +11,10 @@ const (
 	PathGetAttentionList = "/feed/v1/feed/get_attention_list"
 )
 
+type GetAttentionListRequest struct {
+	Uid int64 `json:"uid"`
+}
+
 func GetAttentionList() (*GetAttentionListResponse, error) {
 	if !IsVerifyGiven() {
 		return nil, ErrVerifyRequired
@@ -21,6 +25,12 @@ func GetAttentionList() (*GetAttentionListResponse, error) {
 		logger.WithField("FuncName", utils.FuncName()).Tracef("cost %v", ed.Sub(st))
 	}()
 	url := BPath(PathGetAttentionList)
+	params, err := utils.ToParams(&GetAttentionListRequest{
+		Uid: accountUid.Load(),
+	})
+	if err != nil {
+		return nil, err
+	}
 	var opts []requests.Option
 	opts = append(opts,
 		requests.ProxyOption(proxy_pool.PreferNone),
@@ -30,7 +40,7 @@ func GetAttentionList() (*GetAttentionListResponse, error) {
 	)
 	opts = append(opts, GetVerifyOption()...)
 	getAttentionListResp := new(GetAttentionListResponse)
-	err := requests.Get(url, nil, getAttentionListResp, opts...)
+	err = requests.Get(url, params, getAttentionListResp, opts...)
 	if err != nil {
 		return nil, err
 	}
