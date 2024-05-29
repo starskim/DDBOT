@@ -33,7 +33,7 @@ require (
 	github.com/spf13/cast v1.6.0
 	github.com/starskim/MiraiGo-Template v0.0.0-20240327134144-0e57d696f7aa
 	github.com/stretchr/testify v1.9.0
-	github.com/tidwall/buntdb v1.3.0
+	github.com/tidwall/buntdb v1.3.1
 	github.com/tidwall/gjson v1.17.1
 	go.uber.org/atomic v1.11.0
 	golang.org/x/sync v0.7.0
