@@ -18,7 +18,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/guonaihong/gout v0.3.9
 	github.com/hashicorp/golang-lru v1.0.2
-	github.com/huandu/xstrings v1.4.0
+	github.com/huandu/xstrings v1.5.0
 	github.com/json-iterator/go v1.1.12
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/mitchellh/copystructure v1.2.0
@@ -33,7 +33,7 @@ require (
 	github.com/spf13/cast v1.6.0
 	github.com/starskim/MiraiGo-Template v0.0.0-20240327134144-0e57d696f7aa
 	github.com/stretchr/testify v1.9.0
-	github.com/tidwall/buntdb v1.3.0
+	github.com/tidwall/buntdb v1.3.1
 	github.com/tidwall/gjson v1.17.1
 	go.uber.org/atomic v1.11.0
 	golang.org/x/sync v0.7.0
