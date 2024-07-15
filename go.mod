@@ -16,7 +16,7 @@ require (
 	github.com/ghodss/yaml v1.0.0
 	github.com/gofrs/flock v0.12.0
 	github.com/google/uuid v1.6.0
-	github.com/guonaihong/gout v0.3.9
+	github.com/guonaihong/gout v0.3.10
 	github.com/hashicorp/golang-lru v1.0.2
 	github.com/huandu/xstrings v1.5.0
 	github.com/json-iterator/go v1.1.12
@@ -27,7 +27,7 @@ require (
 	github.com/nobuf/cas v0.0.0-20211227073117-1f46a292d04a
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/samber/lo v1.44.0
+	github.com/samber/lo v1.46.0
 	github.com/shopspring/decimal v1.4.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cast v1.6.0
