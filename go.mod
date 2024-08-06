@@ -30,7 +30,7 @@ require (
 	github.com/samber/lo v1.46.0
 	github.com/shopspring/decimal v1.4.0
 	github.com/sirupsen/logrus v1.9.3
-	github.com/spf13/cast v1.6.0
+	github.com/spf13/cast v1.7.0
 	github.com/starskim/MiraiGo-Template v0.0.0-20240327134144-0e57d696f7aa
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/buntdb v1.3.1
