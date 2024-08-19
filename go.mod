@@ -3,7 +3,7 @@ module github.com/starskim/DDBOT
 go 1.20
 
 require (
-	dario.cat/mergo v1.0.0
+	dario.cat/mergo v1.0.1
 	github.com/Jeffail/gabs/v2 v2.7.0
 	github.com/Mrs4s/MiraiGo v0.0.0-20240226124653-54bdd873e3fe
 	github.com/PuerkitoBio/goquery v1.9.2
