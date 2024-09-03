@@ -16,7 +16,7 @@ require (
 	github.com/ericpauley/go-quantize v0.0.0-20200331213906-ae555eb2afa4
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/ghodss/yaml v1.0.0
-	github.com/gofrs/flock v0.12.0
+	github.com/gofrs/flock v0.12.1
 	github.com/google/uuid v1.6.0
 	github.com/guonaihong/gout v0.3.10
 	github.com/hashicorp/golang-lru v1.0.2
