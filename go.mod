@@ -1,14 +1,13 @@
 module github.com/starskim/DDBOT
 
 go 1.21.0
-
 toolchain go1.23.0
 
 require (
 	dario.cat/mergo v1.0.1
 	github.com/Jeffail/gabs/v2 v2.7.0
 	github.com/Mrs4s/MiraiGo v0.0.0-20240226124653-54bdd873e3fe
-	github.com/PuerkitoBio/goquery v1.9.2
+	github.com/PuerkitoBio/goquery v1.10.0
 	github.com/Sora233/sliceutil v0.0.0-20210120043858-459badd8d882
 	github.com/alecthomas/kong v0.9.0
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
@@ -90,12 +89,12 @@ require (
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/arch v0.9.0 // indirect
-	golang.org/x/crypto v0.26.0 // indirect
+	golang.org/x/crypto v0.27.0 // indirect
 	golang.org/x/exp v0.0.0-20240823005443-9b4947da3948 // indirect
 	golang.org/x/image v0.19.0 // indirect
-	golang.org/x/net v0.28.0 // indirect
-	golang.org/x/sys v0.24.0 // indirect
-	golang.org/x/text v0.17.0 // indirect
+	golang.org/x/net v0.29.0 // indirect
+	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
 	gopkg.ilharper.com/x/isatty v1.1.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
