@@ -9,7 +9,7 @@ require (
 	github.com/Mrs4s/MiraiGo v0.0.0-20240226124653-54bdd873e3fe
 	github.com/PuerkitoBio/goquery v1.10.0
 	github.com/Sora233/sliceutil v0.0.0-20210120043858-459badd8d882
-	github.com/alecthomas/kong v0.9.0
+	github.com/alecthomas/kong v1.2.0
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/dimchansky/utfbom v1.1.1
 	github.com/ericpauley/go-quantize v0.0.0-20200331213906-ae555eb2afa4
@@ -34,7 +34,7 @@ require (
 	github.com/spf13/cast v1.7.0
 	github.com/starskim/MiraiGo-Template v0.0.0-20240825205714-d64d8bd2a63f
 	github.com/stretchr/testify v1.9.0
-	github.com/tidwall/buntdb v1.3.1
+	github.com/tidwall/buntdb v1.3.2
 	github.com/tidwall/gjson v1.17.3
 	go.uber.org/atomic v1.11.0
 	golang.org/x/sync v0.8.0
