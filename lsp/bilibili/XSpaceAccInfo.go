@@ -63,6 +63,7 @@ func XSpaceAccInfo(mid int64) (*XSpaceAccInfoResponse, error) {
 		requests.HeaderOption("accept-language", "zh-CN,zh;q=0.9"),
 		requests.HeaderOption("origin", "https://space.bilibili.com"),
 		requests.HeaderOption("referer", fmt.Sprintf("https://space.bilibili.com/%v", mid)),
+		requests.HeaderOption("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"),
 		requests.RequestAutoHostOption(),
 		requests.WithCookieJar(cj.Load()),
 		requests.NotIgnoreEmptyOption(),
