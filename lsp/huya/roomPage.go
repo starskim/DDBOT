@@ -43,7 +43,7 @@ func RoomPage(roomId string) (*LiveInfo, error) {
 	if err != nil {
 		return nil, err
 	}
-	livingSpan := doc.Find("span.host-prevStartTime,span.host-spectator")
+	livingSpan := doc.Find("span.host-prevStartTime.span,span.host-spectator")
 	if livingSpan.Size() != 1 {
 		log.Errorf("living span size %v", livingSpan.Size())
 		return nil, errors.New("can not determine live status")
