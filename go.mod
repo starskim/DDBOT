@@ -1,7 +1,6 @@
 module github.com/starskim/DDBOT
 
 go 1.21
-
 toolchain go1.23.1
 
 require (
@@ -36,7 +35,7 @@ require (
 	github.com/starskim/MiraiGo-Template v0.0.0-20240905200300-48c918fdb2bb
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/buntdb v1.3.2
-	github.com/tidwall/gjson v1.17.3
+	github.com/tidwall/gjson v1.18.0
 	go.uber.org/atomic v1.11.0
 	golang.org/x/sync v0.8.0
 	google.golang.org/protobuf v1.34.2
