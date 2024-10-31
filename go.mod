@@ -1,7 +1,6 @@
 module github.com/starskim/DDBOT
 
 go 1.21
-
 toolchain go1.23.1
 
 require (
@@ -14,7 +13,7 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/dimchansky/utfbom v1.1.1
 	github.com/ericpauley/go-quantize v0.0.0-20200331213906-ae555eb2afa4
-	github.com/fsnotify/fsnotify v1.7.0
+	github.com/fsnotify/fsnotify v1.8.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/gofrs/flock v0.12.1
 	github.com/google/uuid v1.6.0
@@ -36,10 +35,10 @@ require (
 	github.com/starskim/MiraiGo-Template v0.0.0-20240905200300-48c918fdb2bb
 	github.com/stretchr/testify v1.9.0
 	github.com/tidwall/buntdb v1.3.2
-	github.com/tidwall/gjson v1.17.3
+	github.com/tidwall/gjson v1.18.0
 	go.uber.org/atomic v1.11.0
 	golang.org/x/sync v0.8.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.35.1
 )
 
 require (
